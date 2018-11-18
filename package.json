@@ -1,0 +1,36 @@
+{
+  "name": "js-tdd-course",
+  "version": "1.0.0",
+  "description": "Bibilioteca aprendizagem TDD",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "prepush": "npm run lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victordemorais/jswithTDD.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "Victor de Morais (http://victordemorais.com.br/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victordemorais/jswithTDD/issues"
+  },
+  "homepage": "https://github.com/victordemorais/jswithTDD#readme",
+  "dependencies": {
+    "gitignore": "^0.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "husky": "^1.1.4"
+  }
+}
