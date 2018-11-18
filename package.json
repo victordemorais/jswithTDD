@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint src/*.js",
-    "pre-commit": "npm run lint",
+    "pre-push": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/victordemorais/jswithTDD.git"
